@@ -180,14 +180,6 @@ curseforge {
 
         addGameVersion "1.10.2"
         
-        //Adds main jar, deobf jar, source jar, and javadoc jar to the upload.
-        mainArtifact(jar) {
-          
-            relations {
-
-            }
-        }
-        
         addArtifact(deobfJar)
         addArtifact(sourcesJar)
         addArtifact(javadocJar)
