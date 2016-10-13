@@ -1,0 +1,11 @@
+*.class
+*.iml
+*.ipr
+*.iws
+/output
+
+#ForgeGradle
+/build
+/.gradle
+/eclipse/assets
+/libs
